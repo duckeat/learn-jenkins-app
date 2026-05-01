@@ -34,6 +34,7 @@ pipeline {
                 }
             }
             steps {
+                echo 'Test stage'
                 sh '''
                     npm test
                 '''
